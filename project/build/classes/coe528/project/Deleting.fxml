@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.Deleting">
+   <children>
+      <Label layoutX="163.0" layoutY="25.0" prefHeight="62.0" prefWidth="371.0" text="Delete a Customer" textFill="#0e0eb0">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="134.0" prefHeight="38.0" prefWidth="122.0" text="Username:">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameREE" layoutX="173.0" layoutY="134.0" prefHeight="38.0" prefWidth="382.0" promptText="Enter the Username of the Account you want Deleted">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="394.0" layoutY="255.0" mnemonicParsing="false" onAction="#goToM" prefHeight="48.0" prefWidth="173.0" text="Go Back to Menu" textFill="#080529">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="193.0" mnemonicParsing="false" onAction="#delete" prefHeight="48.0" prefWidth="122.0" text="Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="31.0" layoutY="341.0" prefHeight="40.0" prefWidth="149.0" text="Account Progress:">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="accountStat" layoutX="180.0" layoutY="342.0" prefHeight="38.0" prefWidth="416.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
